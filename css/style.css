@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color:#B4EEB4;
+}
+
+.header {
+    position: relative;
+    z-index: 1; /* 确保头部在 container 之上 */
+    padding: 20px 0;
+    text-align: center;
+    background-color: #fff; /* 或者设置适合您需求的背景颜色 */
+}
+
+.container {/* 容器样式 */
+    border:5px solid #fe1313;/*设置边框*/
+    border-radius:20px;/*圆角边框*/
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow-y: auto;
+    background-color: 	#FFE4B5;
+}
+
+.list-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+.day {
+    text-align: center;
+}
